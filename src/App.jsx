@@ -3,6 +3,7 @@ import './App.scss';
 
 export const App = () => {
   const [count, setCount] = useState(0);
+  // fuck u ai buddy u are fucking idiot
 
   const addOne = () => {
     setCount(prev => prev + 1);
