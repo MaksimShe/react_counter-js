@@ -6,11 +6,11 @@ export const App = () => {
   // fuck u ai buddy u are fucking idiot
 
   const addOne = () => {
-    setCount(prev => prev + 1);
+    setCount(number => number + 1);
   };
 
   const add100 = () => {
-    setCount(prev => prev + 100);
+    setCount(number => number + 100);
   };
 
   // DON'T change the code below
